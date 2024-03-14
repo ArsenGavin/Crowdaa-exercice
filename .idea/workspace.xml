@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ae530f-1e34-432e-ad04-0a7bea526815" name="Changes" comment="add image-item-detail component and media queries style">
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/android-chrome-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Matrix-canva-component/Matrix-canva.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Matrix-canva-component/Matrix-canva.tsx" afterDir="false" />
+    <list default="true" id="21ae530f-1e34-432e-ad04-0a7bea526815" name="Changes" comment="update favicon and title index.html, add matrix canva component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-component/Image-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-component/Image-item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/pages/Homepage/Homepage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/pages/Homepage/Homepage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Loading-component/Loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Loading-component/Loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/entity/imageObj.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/entity/imageObj.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -44,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cypress.all tests in maintest.cy.ts.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -70,6 +66,27 @@
       <recent name="C:\Users\gavin\OneDrive\Bureau\Crowdaa\src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="all tests in maintest.cy.ts" type="JavaScriptTestRunnerCypress" temporary="true">
+      <node-interpreter value="project" />
+      <cypress-package value="$PROJECT_DIR$/crowdaa-exercice/node_modules/cypress" />
+      <working-dir value="$PROJECT_DIR$/crowdaa-exercice" />
+      <cypress-options value="-q" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/crowdaa-exercice/cypress/e2e/maintest.cy.ts" />
+      <test-names>
+        <test-name value="template spec" />
+        <test-name value="passes" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cypress.all tests in maintest.cy.ts" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710402801081</updated>
-      <workItem from="1710402802136" duration="9672000" />
+      <workItem from="1710402802136" duration="21232000" />
     </task>
     <task id="LOCAL-00001" summary="Init react typescript project">
       <option name="closed" value="true" />
@@ -119,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710410874559</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update favicon and title index.html, add matrix canva component">
+      <option name="closed" value="true" />
+      <created>1710414374626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710414374626</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +155,7 @@
     <MESSAGE value="update app.tss, add homepage component with fetchdata" />
     <MESSAGE value="add error, loading and localstorage for fetchdata. add gallery and image item component" />
     <MESSAGE value="add image-item-detail component and media queries style" />
-    <option name="LAST_COMMIT_MESSAGE" value="add image-item-detail component and media queries style" />
+    <MESSAGE value="update favicon and title index.html, add matrix canva component" />
+    <option name="LAST_COMMIT_MESSAGE" value="update favicon and title index.html, add matrix canva component" />
   </component>
 </project>

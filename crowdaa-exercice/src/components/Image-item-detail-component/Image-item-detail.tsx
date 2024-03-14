@@ -6,7 +6,7 @@ export default function ImageItemDetail({selectedItem, handleItemClick}:{selecte
 
     const thomasItem:string = "Exercice envoyé par Crowdaa, réalisé par Thomas Birmingham - Développeur Front";
     return (
-        <div className='containerItemDetail'>
+        <div className='itemDetailContainer'>
             {selectedItem ? (
                 <div className='boxItemDetail'>
                     <img className='imgItemDetail' src={selectedItem.url} alt='Detail'/>

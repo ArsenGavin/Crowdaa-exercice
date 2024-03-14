@@ -5,4 +5,3 @@ export type ImageObj = {
     "url": string;
     "thumbnailUrl": string;
 };
-

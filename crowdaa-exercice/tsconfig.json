@@ -4,8 +4,10 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es5"
     ],
+    "types": ["cypress", "node"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -13,8 +15,9 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
+    "preserveValueImports": false,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -23,9 +26,8 @@
   "include": [
     "src",
     "src/**/*.ts",
+    "**/*.ts",
     "src/**/*.tsx",
-    "src/**/**.*.png",
-    "src/**/**.*.jpg",
-    "src/**/**.*.gif"
-  ]
+  ],
+  "exclude": ["src/main/test/cypress"]
 }
