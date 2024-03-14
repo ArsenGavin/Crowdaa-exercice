@@ -1,0 +1,53 @@
+.galleryContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    animation: fadein 4s ease-in-t;
+    -moz-animation: fadein 4s ease-in-out; /* Firefox */
+    -webkit-animation: fadein 4s ease-in-out; /* Safari and Chrome */
+    -o-animation: fadein 4s ease-in-out; /* Opera */
+}
+
+.itemBox{
+    width: 50%;
+}
+
+
+@keyframes fadein {
+    from,
+    to {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* on Firefox */
+    from,
+    to {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* on Safari and Chrome */
+    from,
+    to {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* on Opera */
+    from,
+    to {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

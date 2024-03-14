@@ -1,0 +1,17 @@
+.imgItem{
+    width: 10vw;
+    height: 10vw;
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 80px;
+    min-height: 80px;
+    border: transparent solid 3px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.81);
+    z-index: 10;
+}
+
+.activeItem{
+    border: #fff solid 3px;
+}

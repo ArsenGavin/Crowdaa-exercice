@@ -1,0 +1,21 @@
+.errorBox{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.66);
+    border-radius: 20px;
+    width: 20vw;
+    margin: auto;
+    text-align: center;
+}
+
+.errorImg{
+    width: 150px;
+    margin: auto;
+}
+
+.errorText{
+    font-size: 1.5vw;
+    color: #fff;
+}
