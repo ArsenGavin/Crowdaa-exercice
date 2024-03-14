@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    animation: fadein 4s ease-in-t;
+    animation: fadein 4s ease-in-out;
     -moz-animation: fadein 4s ease-in-out; /* Firefox */
     -webkit-animation: fadein 4s ease-in-out; /* Safari and Chrome */
     -o-animation: fadein 4s ease-in-out; /* Opera */
@@ -48,6 +48,21 @@
     }
     100% {
         opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .galleryContainer{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+    .itemBox{
+        margin: 10% auto 0;
+        width: 100%;
+        text-align: center;
     }
 }
 
