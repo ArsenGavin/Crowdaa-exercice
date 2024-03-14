@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ae530f-1e34-432e-ad04-0a7bea526815" name="Changes" comment="update favicon and title index.html, add matrix canva component">
+    <list default="true" id="21ae530f-1e34-432e-ad04-0a7bea526815" name="Changes" comment="add e2e test with cypress">
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/cypress.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/cypress/e2e/maintest.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/cypress/fixtures/mockImg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/cypress/support/commands.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/cypress/support/e2e.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Loading-component/Loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Loading-component/Loading.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/entity/imageObj.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/entity/imageObj.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710402801081</updated>
-      <workItem from="1710402802136" duration="21232000" />
+      <workItem from="1710402802136" duration="21697000" />
     </task>
     <task id="LOCAL-00001" summary="Init react typescript project">
       <option name="closed" value="true" />
@@ -144,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710414374626</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add e2e test with cypress">
+      <option name="closed" value="true" />
+      <created>1710425452589</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710425452589</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +161,7 @@
     <MESSAGE value="add error, loading and localstorage for fetchdata. add gallery and image item component" />
     <MESSAGE value="add image-item-detail component and media queries style" />
     <MESSAGE value="update favicon and title index.html, add matrix canva component" />
-    <option name="LAST_COMMIT_MESSAGE" value="update favicon and title index.html, add matrix canva component" />
+    <MESSAGE value="add e2e test with cypress" />
+    <option name="LAST_COMMIT_MESSAGE" value="add e2e test with cypress" />
   </component>
 </project>
