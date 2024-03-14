@@ -25,7 +25,6 @@ export default function Homepage(){
                 setIsLoading(false);
                 localStorage.setItem('imgData', JSON.stringify(slicedData));
             } catch (error) {
-                console.error('Erreur lors de la récupération des données:', error);
                 setIsLoading(false);
                 setError(true)
             }

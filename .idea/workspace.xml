@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ae530f-1e34-432e-ad04-0a7bea526815" name="Changes" comment="add error, loading and localstorage for fetchdata. add gallery and image item component">
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail.tsx" afterDir="false" />
+    <list default="true" id="21ae530f-1e34-432e-ad04-0a7bea526815" name="Changes" comment="add image-item-detail component and media queries style">
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/android-chrome-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Matrix-canva-component/Matrix-canva.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Matrix-canva-component/Matrix-canva.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Gallery-component/Gallery-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Gallery-component/Gallery-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Gallery-component/Gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Gallery-component/Gallery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-component/Image-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-component/Image-item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/components/Image-item-detail-component/Image-item-detail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdaa-exercice/src/pages/Homepage/Homepage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crowdaa-exercice/src/pages/Homepage/Homepage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gavin/OneDrive/Bureau/Crowdaa/crowdaa-exercice/src/components",
+    "last_opened_file_path": "C:/Users/gavin/OneDrive/Bureau/Crowdaa/crowdaa-exercice/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gavin\OneDrive\Bureau\Crowdaa\crowdaa-exercice\public" />
       <recent name="C:\Users\gavin\OneDrive\Bureau\Crowdaa\crowdaa-exercice\src\components" />
       <recent name="C:\Users\gavin\OneDrive\Bureau\Crowdaa\crowdaa-exercice\src\assets" />
       <recent name="C:\Users\gavin\OneDrive\Bureau\Crowdaa\crowdaa-exercice\src\entity" />
       <recent name="C:\Users\gavin\OneDrive\Bureau\Crowdaa\crowdaa-exercice\src\pages" />
-      <recent name="C:\Users\gavin\OneDrive\Bureau\Crowdaa\crowdaa-exercice\src\types" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gavin\OneDrive\Bureau\Crowdaa\src" />
@@ -74,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710402801081</updated>
-      <workItem from="1710402802136" duration="7048000" />
+      <workItem from="1710402802136" duration="9672000" />
     </task>
     <task id="LOCAL-00001" summary="Init react typescript project">
       <option name="closed" value="true" />
@@ -100,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710408484102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add image-item-detail component and media queries style">
+      <option name="closed" value="true" />
+      <created>1710410874559</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710410874559</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +129,7 @@
     <MESSAGE value="Init react typescript project" />
     <MESSAGE value="update app.tss, add homepage component with fetchdata" />
     <MESSAGE value="add error, loading and localstorage for fetchdata. add gallery and image item component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add error, loading and localstorage for fetchdata. add gallery and image item component" />
+    <MESSAGE value="add image-item-detail component and media queries style" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image-item-detail component and media queries style" />
   </component>
 </project>

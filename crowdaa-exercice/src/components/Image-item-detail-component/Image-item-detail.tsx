@@ -1,6 +1,6 @@
 import React from 'react';
 import './Image-item-detail-style.css'
-// import MatrixWallCanvas from '../Matrix-canva-component/Matrix-canva'
+import MatrixWallCanvas from '../Matrix-canva-component/Matrix-canva'
 import { ImageObj } from '../../entity/imageObj.entity';
 export default function ImageItemDetail({selectedItem, handleItemClick}:{selectedItem:ImageObj|null, handleItemClick:(arg0:ImageObj)=>void}){
 
@@ -25,7 +25,7 @@ export default function ImageItemDetail({selectedItem, handleItemClick}:{selecte
             ) : (
                 <div>
                     <div className='boxCanvaDetail'>
-                        {/*<MatrixWallCanvas/>*/}
+                        <MatrixWallCanvas/>
                     </div>
                     <div className='boxTitleCanvaDetail'>
                         <p className='titleImage'>{thomasItem}</p>

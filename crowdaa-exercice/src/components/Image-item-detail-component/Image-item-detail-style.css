@@ -2,7 +2,7 @@
     position: relative;
 }
 .boxItemDetail{
-    display: grid;
+    display: inline-grid;
 }
 .imgItemDetail{
     width: 30vw;
